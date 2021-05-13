@@ -2,6 +2,8 @@
 The following project presents multiple solutions to the Smallest Enclosing Circle problem. 
 The problem was suggested by https://algs4.cs.princeton.edu and is described on https://introcs.cs.princeton.edu/java/assignments/circle.html .In Brief, the smallest enclosing circle problem takes a specific set of points and finds the smallest circle, which includes every point of the set. Hence, the center point of the "smallest enclosing circle" represents a point with the shortest distance considering the furthest point in the given set. Therefore, the center point has meaningful applications in the physical world, such as defining the place to build a hospital or school, which is reachable from all considered points when the points are representing houses.  The Aforementioned Problem is referred to as a part of computational geometry and exists in 2d space as the "smallest enclosing circle" and in 3d space as the "smallest enclosing sphere" problem. Notably, the algorithms solving the matters find also applications in Machine Learning dilemmas.
 
+<img src="https://github.com/lostMindCtrl/SmallestEnclosingCircle/blob/main/data/images/sec226.png">
+
 <h2>Content of the project:</h2>
 data/ <br>
 algs4.jar <br>
@@ -71,5 +73,8 @@ The usage syntax is just the syntax for the correct execution of the different c
 Test files are provieded in data/circle/*
 
 <h2>Examples: </h2><br>
-
-
+<img src="https://github.com/lostMindCtrl/SmallestEnclosingCircle/blob/main/data/images/eval_unit_exec.png">
+<img src="https://github.com/lostMindCtrl/SmallestEnclosingCircle/blob/main/data/images/eval_unit.png">
+<br>
+<img src="https://github.com/lostMindCtrl/SmallestEnclosingCircle/blob/main/data/images/chrystal_exec.png">
+<img src="https://github.com/lostMindCtrl/SmallestEnclosingCircle/blob/main/data/images/sec226.png">
