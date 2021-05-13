@@ -1,0 +1,27 @@
+public void processMessage(String pMessage)
+{
+    
+    if(pMessage.equals(-ERR Falscher PIN))
+    {
+        if(zaehler < 0000)return;
+        String int_toString = "" + zaehler;
+        if(int_toString.length == 3 )  int_toString = "0" + int_toString;
+        else if (int_toString.length == 2) int_toString = "00" + int_toString;
+        else if (int_toString.length == 1) int_toString = "000" + int_toString;
+        send("PIN" + zaehler);
+        zaehler--; 
+        
+    }
+    else if (pMessage.equals(+OK Sie sind angemeldet))antwort = zaehler;
+
+    if(pMessage.equals("+OK Bitte NAME"))
+    {
+        send("NAME" + "eva");
+    }
+
+    if(p.Message.equals("+OK Bitte PIN"))
+    {
+        send("PIN " + 0000);
+        zaehler = 9999;
+    }
+}
